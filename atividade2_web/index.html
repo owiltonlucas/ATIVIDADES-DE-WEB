@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Torneio de ciclismo</h2>
+    <form>
+        <label for="name" >Nome completo: </label> <br>
+        <input type="text" name="form_name" id="name" placeholder="Insira seu nome...">
+        <br><br>
+
+        <label for="data_nasc">Data de nascimento:</label> <br>
+        <input type="date" name="form_date" id="data_nasc">
+        <br><br>
+
+        <label for="modalidade">Escolha sua modalidade:</label> <br>
+        <input type="radio" name="form_modalidade" id="modalidade" value="mountain_bike"> Mountain Bike <br>
+        <input type="radio" name="form_modalidade" id="modalidade" value="ciclismo_de_estrada"> Ciclismo de Estrada 
+        <br><br>
+
+        <label for="experiencia">Informe seu nível de experiência:</label> <br>
+        <input type="radio" name="form_experiencia" id="experiencia" value="iniciante"> Iniciante <br>
+        <input type="radio" name="form_experiencia" id="experiencia" value="intermediario"> Intermediário<br>
+        <input type="radio" name="form_experiencia" id="experiencia" value="avancado"> Avançado
+
+        <br><br>
+
+        <label for="interesses">Marque seus interesses em alimentação: </label> <br>
+        <input type="checkbox" name="form_interesses" id="interesses"> Água <br>
+        <input type="checkbox" name="form_interesses" id="interesses"> Lanche leve <br>
+        <input type="checkbox" name="form_interesses" id="interesses"> Lanche reforçado <br>
+        <input type="checkbox" name="form_interesses" id="interesses"> Coca-cola <br>
+        <input type="checkbox" name="form_interesses" id="interesses"> Barra proteica
+        <br><br>
+
+        <label for="termo">Li e aceito os termos e condições do torneio: </label>
+        <input type="checkbox" name="form_termo" id="termo">
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário"> 
+    </form>
+</body>
+</html>

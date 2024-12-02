@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontros Universitários</title>
+</head>
+<body>
+    <h2>Formulário de Inscrição - Encontros Universitários</h2>
+
+    <form>
+        <fieldset>
+            <legend>Informaçoes sobre o trabalho</legend>
+            <label for="titulo">Informe o título do trabalho:</label> <br>
+            <input type="text" name="form_titulo" id="titulo" maxlength="100" required>
+            <br><br>
+
+            <label for="resumo">Escreva um resumo do seu trabalho:</label> <br>
+            <textarea name="form_resumo" id="resumo" maxlength="500" required></textarea>
+            <br><br>
+
+            <label for="submissao">Selecione uma ou mais trilhas na qual o seu trabalho se encaixa:</label> <br>
+            <input type="checkbox" name="form_submissao" id="submissao"> Pesquisa Científica <br>
+            <input type="checkbox" name="form_submissao" id="submissao"> Inovação e Tecnologia <br>
+            <input type="checkbox" name="form_submissao" id="submissao"> Extensão Universitária <br>
+            <input type="checkbox" name="form_submissao" id="submissao"> Empreendedorismo <br>
+            <input type="checkbox" name="form_submissao" id="submissao"> Arte e Cultura 
+            <br><br>
+
+            <label for="autor">Informe os nomes dos autores do trabalho:</label> <br>
+            <input type="text" name="form_autor" id="autor" maxlength="200" required>
+            <br><br>
+
+            <label for="orientador">Selecione o orientador:</label>
+            <select name="form_orientador" id="orientador">
+                <option value="">Selecionar</option>
+                <option value="orientador1">Orientador 1</option>
+                <option value="orientador2">Orientador 2</option>
+                <option value="orientador3">Orientador 3</option>
+                <option value="orientador4">Orientador 4</option>
+            </select>
+            <br><br>
+
+            <label for="anexo">Link para anexos:</label> <br>
+            <input type="url" name="form_anexo" id="anexo">
+            <br><br>
+
+            <label for="comentario">Escreva abaixo, comentários adicionais sobre o seu trabalho:</label> <br>
+            <textarea name="form_comentario" id="comentario" maxlength="300"></textarea>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário">
+        <input type="reset" value="Limpar Formulário">
+    </form>
+</body>
+</html>

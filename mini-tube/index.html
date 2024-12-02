@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Tube</title>
+</head>
+<body>
+    <header>
+        <h1>Mini-Tube</h1>
+    </header>
+
+    <div>
+        <div>
+            <h2>Vídeo 1</h2>
+            <video controls>
+                <source src="./assets/video1.mp4" type="video/mp4">
+                <track src="https://www.w3schools.com/html/mov_bbb_subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                <track src="https://www.w3schools.com/html/mov_bbb_subtitles_fr.vtt" kind="subtitles" srclang="fr" label="Français">
+                Seu navegador não suporta a reprodução de video.
+            </video>
+        </div>
+
+        <div>
+            <h2>Vídeo 2</h2>
+            <video controls>
+                <source src="./assets/video2.mp4" type="video/mp4">
+                <track src="https://www.w3schools.com/html/mov_bbb_subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                <track src="https://www.w3schools.com/html/mov_bbb_subtitles_fr.vtt" kind="subtitles" srclang="fr" label="Français">
+                Seu navegador não suporta a reprodução de video.
+            </video>
+        </div>
+        
+        <div>
+            <h2>Iframe</h2>
+            <iframe 
+                width="560"
+                height="315" 
+                src="https://www.youtube.com/embed/o0LjwAohJO8?si=MSXzPYQMu8Xa2kTP" 
+                title="YouTube video player" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+</body>
+</html>

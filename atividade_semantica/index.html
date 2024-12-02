@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <header>
+        <h1>Tudo sobe Futebol</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h3>Jogo da Seleção hoje</h3>
+            <p>
+                <mark>Brasil e Uruguai</mark> se enfrentam, nesta terça-feira (19), <mark>Arena Fonte Nova, 
+                em Salvador (BRA), às 21h45 (de Brasília)</mark>. A partida válida pela 12ª rodada 
+                das Eliminatórias da América do Sul para a Copa do Mundo 2026. <mark>Brasil vem de
+                um empate e com atuações abaixo do esperado</mark>. Enquanto que,<mark> Uruguai, vem de uma 
+                virada épica</mark> jogando em casa contra a Colômbia. Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Nisi numquam molestiae corrupti veniam autem, 
+                quod, quidem dicta quasi eaque officia minima provident. Magnam deleniti possimus, 
+                vero cum iusto cumque odit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda reprehenderit cum beatae dolorem voluptatum temporibus id iure rem dolores 
+                repudiandae quia odit quo, nemo aspernatur praesentium. Error temporibus ipsa modi!
+            </p>
+        </article>
+
+        <aside>
+            <h3>Notícias relacionadas</h3>
+            <ul>
+                <li> <a href="#">Copa do Mundo de 2026: Entenda o novo formato</a></li>
+                <li> <a href="#">Novo formato de copa causa polêmica e divergência de opiniões</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <section>
+        <h3>Leia sobre futebol</h3>
+        <p>
+            O <marK>Futebol é um dos esportes mais populares e praticados do mundo</marK> , 
+            conhecido por sua simplicidade e pela paixão que desperta em milhões
+            de pessoas. <mark>A modalidade é jogada entre duas equipes de 11 jogadores
+            cada, com o objetivo de marcar mais gols que o time adversário</mark>, 
+            utilizando principalmente os pés para conduzir e chutar a bola, 
+            embora outras partes do corpo, exceto as mãos, também possam ser usadas.
+            O jogo acontece em um campo retangular com dois gols em cada extremidade. 
+            O time que marca o maior número de gols durante o tempo regulamentar, 
+            que geralmente é de 90 minutos divididos em dois tempos de 45 minutos, 
+            é declarado vencedor. Em caso de empate, o jogo pode ser decidido por 
+            prorrogação ou pênaltis, dependendo da competição. O futebol é regido por
+            regras internacionais definidas pela FIFA (Federação Internacional de Futebol),
+            com destaque para o uso do árbitro para assegurar que as regras sejam seguidas 
+            durante as partidas. Além disso, <mark>o esporte possui competições de grande prestígio, 
+            como a Copa do Mundo, Liga dos Campeões da UEFA, Campeonatos Nacionais e 
+            Copa Libertadores da América</mark>. Além de ser um fenômeno global, o futebol tem 
+            um impacto significativo na cultura, na economia e na sociedade, unindo pessoas 
+            de diferentes origens e promovendo valores como trabalho em equipe, respeito e 
+            disciplina.
+        </p>
+    </section>
+
+    <h4>Calcule a probabilidade do seu time ganhar hoje:</h4>
+    <form>
+        <label for="vitorias">Número de vitórias</label> 
+        <input type="number" name="form_vitorias" id="vitorias"> 
+        <br>
+        <label for="derrotas">Número de derrotas</label> 
+        <input type="number" name="form_derrotas" id="derrotas">
+    </form>
+    <p>
+        Resultado: <output id="resultado" for="vitorias derrotas"></output>
+    </p>
+
+    <br><br>
+
+    <details>
+        <summary>Tudo sobre Futebol</summary>
+        <p>Nesta página, você encontra informações sobre futebol e conteúdos relacionados</p>
+        <details>
+            <summary>Jogo da seleção hoje</summary>
+            <p>
+                Aqui, pode ser visualizado as informações sobre o jogo da seleção hoje, 
+                válido pelas eliminatórias sul-americanas da copa de 2026
+            </p>
+        </details>
+
+        <details>
+            <summary>Notícias relacionadas</summary>
+            <p>Nessa parte, é mostrado as notícias relacionadas a copa do mundo de 2026</p>
+        </details>
+
+        <details>
+            <summary>Leia sobre futebol</summary>
+            <p>
+                Aqui, se fala sobre o futebol. Mostrando uma narrativa sobre o esporte 
+                e sobre suas principais competições.
+            </p>
+        </details>
+
+        <details>
+            <summary>Calcule a probabilidade do seu time ganhar hoje</summary>
+            <p>
+                Aqui, é possível calcular qual a probabilidade do teu time ganhar
+                hoje, com base em estatística
+            </p>
+        </details>
+    </details>
+
+    <br><br>
+    <figure>
+        <img src="./assets/brasil.jpg" alt="imagem da blusa de futebol brasileira">
+        <figcaption>Blusa do Brasil</figcaption>
+    </figure>
+
+    <br><br>
+    <label for="time">Porcentagem de conteúdo visualizado da página</label>
+    <progress id="time" value="30" max="100"></progress>
+
+    <footer>
+        <p>&copy; Empresa de Jogos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
